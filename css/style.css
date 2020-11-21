@@ -1,0 +1,195 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Lato', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*Reen project code start here*/
+
+/*header-section start*/
+.header-section{
+	width: 100%;
+}
+.top-header{
+	width: 100%;
+	background: #f5f7fa;
+	padding: 5px 0px; 
+}
+.info{
+	width: 100%;
+}
+.info ul{
+	padding: 0px;
+	margin: 0px;
+}
+.info ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+.info ul li a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #506a85;
+	margin-left: 15px 3px;
+}
+ .info .fa{
+ 	margin-right: 5px;
+ }
+ .social-icons{
+ 	width: 100%;
+ }
+ .social-icons ul{
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+ }
+ .social-icons ul li{
+ 	list-style: none;
+	display: inline-block;
+	margin-left: 15px;
+
+ }
+ .social-icons ul li a{
+ 	font-size: 14px;
+	font-weight: 600;
+	color: #506a85;
+	transition: 1s;
+}
+.social-icons ul li a:hover{
+	color: #00bc9c;
+ }
+
+ .main-menu{
+ 	width: 100%;
+ 	padding: 10px 0px;
+ }
+ .main-menu .navbar-brand{
+ 	margin-right: 40px;
+ }
+ .main-menu .bg-light{
+ 	background: transparent !important;
+ }
+ .main-menu .navbar-light .navbar-nav .nav-link{
+ 	color: #506a85;
+ 	font-size: 14px;
+ 	font-weight: 700;
+ 	text-transform: uppercase;
+ 	margin: 0px 15px; 
+ 	transition: 1s;
+ }
+ .main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+ 	color: #00bc9c;
+ }
+ .main-menu .navbar-light .navbar-nav .active>.nav-link{
+ 	color: #00bc9c;
+ }
+  .main-menu .fa-search{
+  	color: #506a85;
+  	font-size: 14px;
+  }
+
+   /*Slider section start*/
+ .slider{
+ 	width: 100%;
+ }
+ .slider .carousel-caption{
+ 	bottom: 30%;
+ }
+ .slider .carousel-caption h2{
+ 	 font-size: 58px;
+ 	 font-weight: 700;
+ 	 text-transform: uppercase;
+ }
+ .slider .carousel-caption p{
+ 	font-size: 16px;
+ 	line-height: 26px;
+ 	color: #a3b1bf; 
+ }
+ .slider .carousel-caption .btn-info{
+ 	padding: 12px 45px;
+ 	background: #00bc9c;
+ 	color: #fff;
+ 	border:1px solid #00bc9c;
+ 	border-radius: 2px;
+ 	font-size: 14px;
+ 	font-weight: 700;
+ 	text-transform: uppercase;
+ 	letter-spacing: 3px;
+ 	margin-top:30px;
+ }
+.slider .carousel-caption .btn-info:hover, .slider .carousel-caption .btn-info:focus{
+	background: transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+}
+/*who-we-section start*/
+.who-we-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we-section .title{
+	width: 100%;
+}
+.who-we-section .title h1{
+	font-size: 42px;
+	font-weight: 700;
+	color: #506a85;
+}
+.who-we-section .title p{
+	color: #a3b1bf;
+	font-size: 14px;
+	line-height: 24px;
+}
+.who-we-section .media{
+	padding: 50px 21px;
+}
+.who-we-section .media .media-body h5{
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #506a85;
+
+}
+
+
+/*portfolio*/
+.portfolio{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f5f7;
+}
+.portfolio .title{
+	width: 100%;
+	padding-bottom: 40px;
+}
+.portfolio .title h1{
+	font-size: 42px;
+	font-weight: 700;
+	color: #506a85;
+}
+.portfolio .title p{
+	color: #a3b1bf;
+	font-size: 14px;
+	line-height: 24px;
+}
+.portfolio .card-body .card-title {
+	margin: 0px 0px 2px;
+	font-size: 12px;
+	font-weight: 700;
+	color: #506a85;
+}
+.portfolio .card-body .card-text{
+	color: #a3b1bf;
+	font-size: 14px;
+	line-height: 24px;
+}
